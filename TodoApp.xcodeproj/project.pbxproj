@@ -13,6 +13,8 @@
 		CDA8DB4827FB6940005406B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8DB4627FB6940005406B0 /* Main.storyboard */; };
 		CDA8DB4A27FB6943005406B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA8DB4927FB6943005406B0 /* Assets.xcassets */; };
 		CDA8DB4D27FB6943005406B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDA8DB4B27FB6943005406B0 /* LaunchScreen.storyboard */; };
+		CDA8DB5B27FB6F9A005406B0 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8DB5A27FB6F9A005406B0 /* EntryViewController.swift */; };
+		CDA8DB5D27FB6FA8005406B0 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA8DB5C27FB6FA8005406B0 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CDA8DB4927FB6943005406B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA8DB4C27FB6943005406B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDA8DB4E27FB6943005406B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA8DB5A27FB6F9A005406B0 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		CDA8DB5C27FB6FA8005406B0 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CDA8DB4927FB6943005406B0 /* Assets.xcassets */,
 				CDA8DB4B27FB6943005406B0 /* LaunchScreen.storyboard */,
 				CDA8DB4E27FB6943005406B0 /* Info.plist */,
+				CDA8DB5A27FB6F9A005406B0 /* EntryViewController.swift */,
+				CDA8DB5C27FB6FA8005406B0 /* TaskViewController.swift */,
 			);
 			path = TodoApp;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA8DB4527FB6940005406B0 /* ViewController.swift in Sources */,
+				CDA8DB5B27FB6F9A005406B0 /* EntryViewController.swift in Sources */,
+				CDA8DB5D27FB6FA8005406B0 /* TaskViewController.swift in Sources */,
 				CDA8DB4127FB6940005406B0 /* AppDelegate.swift in Sources */,
 				CDA8DB4327FB6940005406B0 /* SceneDelegate.swift in Sources */,
 			);
